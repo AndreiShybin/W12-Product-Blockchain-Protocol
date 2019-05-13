@@ -37,7 +37,9 @@
     "t:test": "truffle test",
     "flat": "truffle-flattener",
     "test": "npm run t:test",
-    "gen-release": "node ./shared/scripts/gen-release.js"
+    "gen-release": "node ./shared/scripts/gen-release.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "@redtea/semint": "^1.0.1",
@@ -72,10 +74,10 @@
     "mocha-lcov-reporter": "^1.3.0",
     "semver": "^5.5.1",
     "solc": "^0.4.24",
-    "solidity-coverage": "^0.5.5",
+    "solidity-coverage": "^0.5.7",
     "solium": "^1.1.8",
     "truffle": "^4.1.13",
-    "truffle-hdwallet-provider": "0.0.7-beta.1",
+    "truffle-hdwallet-provider": "1.0.0",
     "truffle-privatekey-provider": "^0.1.0",
     "utf8-bytes": "0.0.1"
   },
@@ -87,6 +89,8 @@
     "openzeppelin-solidity": "1.12.0",
     "sha3": "^1.2.2",
     "solidity-bytes-utils": "0.0.5",
-    "truffle-flattener": "^1.2.8"
-  }
+    "truffle-flattener": "^1.2.8",
+    "snyk": "^1.163.3"
+  },
+  "snyk": true
 }
