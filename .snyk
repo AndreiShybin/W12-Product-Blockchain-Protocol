@@ -1,8 +1,23 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:extend:20180424':
     - truffle-privatekey-provider > web3 > web3-bzz > swarm-js > eth-lib > servify > request > extend:
         patched: '2019-05-13T12:39:08.609Z'
+  SNYK-JS-LODASH-450202:
+    - lodash:
+        patched: '2019-07-03T21:17:58.631Z'
+    - truffle-flattener > truffle-resolver > async > lodash:
+        patched: '2019-07-03T21:17:58.631Z'
+    - solidity-bytes-utils > truffle-hdwallet-provider > web3-provider-engine > async > lodash:
+        patched: '2019-07-03T21:17:58.631Z'
+    - solidity-bytes-utils > truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2019-07-03T21:17:58.631Z'
+    - solidity-bytes-utils > truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > async > lodash:
+        patched: '2019-07-03T21:17:58.631Z'
+    - solidity-bytes-utils > truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-07-03T21:17:58.631Z'
+    - solidity-bytes-utils > truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-07-03T21:17:58.631Z'
