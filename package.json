@@ -90,7 +90,7 @@
     "sha3": "^1.2.2",
     "solidity-bytes-utils": "0.0.5",
     "truffle-flattener": "^1.2.8",
-    "snyk": "^1.163.3"
+    "snyk": "^1.189.0"
   },
   "snyk": true
 }
