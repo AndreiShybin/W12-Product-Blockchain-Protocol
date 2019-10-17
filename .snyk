@@ -4621,6 +4621,16 @@ patch:
         patched: '2019-07-04T04:02:06.361Z'
     - truffle-privatekey-provider > web3 > web3-eth > web3-eth-ens > web3-eth-contract > web3-eth-accounts > web3-core-method > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
         patched: '2019-07-04T04:02:06.361Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2019-10-17T04:06:25.184Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2019-10-17T04:06:25.184Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-17T04:06:25.184Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2019-10-17T04:06:25.184Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-17T04:06:25.184Z'
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - snyk > proxy-agent > https-proxy-agent:
         patched: '2019-10-03T21:18:18.966Z'
