@@ -38,7 +38,7 @@
     "flat": "truffle-flattener",
     "test": "npm run t:test",
     "gen-release": "node ./shared/scripts/gen-release.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
@@ -90,7 +90,7 @@
     "sha3": "^1.2.2",
     "solidity-bytes-utils": "0.0.5",
     "truffle-flattener": "^1.2.8",
-    "snyk": "^1.290.1"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
